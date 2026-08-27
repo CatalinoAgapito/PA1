@@ -1,7 +1,7 @@
 # PA#1
-###Name: AGAPITO, Catalino D.R.
-###Section: 2ECE-C
-###Date Submitted: August 8, 2026
+### Name: AGAPITO, Catalino D.R.
+### Section: 2ECE-C
+### Date Submitted: August 8, 2026
 
 In this Program Assignment, three different problems were asked. Each problem has its own function for performing a specific task.
 
