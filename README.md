@@ -14,8 +14,8 @@ The input is stored in 'word' before being processed by the rotate_word() functi
 ````
 def rotate_word(text): 
 return text[1:] + text[0]
-word = input("Enter text: ") #asks the user to eanter a word to rotated
-print(rotate_word(word)) #prints the result
+word = input("Enter text: ") 
+print(rotate_word(word)) 
 ````
 
 
@@ -38,10 +38,10 @@ def make_username(first_name, last_name):
     last_name = last_name.lower().replace(" ", "") 
     return first_name + "." + last_name
 
-first = input("enter first name: ") #asks the user for their first name
-last = input("enter last name: ")  #asks the user for their first name
-username = make_username(first, last) #constructs the username
-print(username) #prints the username
+first = input("enter first name: ") 
+last = input("enter last name: ")  
+username = make_username(first, last) 
+print(username) 
 ````
 
 # Problem 3: Bookend Swap Problem
@@ -60,7 +60,7 @@ stored into 'items' before being processed.
 def swap_bookends(items):
     first, *middle, last = items
     return [last] + middle + [first]
-items = input("Enter items: ") #asks the user to enter items
+items = input("Enter items: ") 
 initems = items.split()
 swap = swap_bookends(initems)
 print(swap)
