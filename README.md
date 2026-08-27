@@ -15,7 +15,7 @@ print(rotate_word(word))
 ````
 
 
-<b> Problem 2: Username Builder Problem
+# Problem 2: Username Builder Problem
 
 In Problem 2, you are asked to create a function that builds a username from a user's first and last name. The username should be in lowercase format with a dot (.) separating the 
 first and last names. For example, "Catalino" and "Agapito" become 
@@ -40,7 +40,7 @@ username = make_username(first, last)
 print(username)
 ````
 
-<b> Problem 3: Bookend Swap Problem
+# Problem 3: Bookend Swap Problem
 
 In Problem 3, you are asked to create a function that swaps the first and last elements of a list. This is called "bookend swapping" because the elements at the ends (bookends) are 
 exchanged while the middle elements remain in their original order. 
