@@ -59,6 +59,5 @@ def swap_bookends(items):
 items = input("Enter items: ")
 initems = items.split()
 swap = swap_bookends(initems)
-````
 print(swap)
-```
+````
