@@ -13,7 +13,7 @@ return text[1:] + text[0]
 word = input("Enter text: ")
 print(rotate_word(word))
 ````
-The result is then printed to the screen using the print() function.
+
 ````
 <b> Problem 2: Username Builder Problem
 ````
@@ -39,8 +39,6 @@ last = input("enter last name: ")
 username = make_username(first, last)
 print(username)
 ````
-
-The result is then printed to the screen using the print() function.
 
 ````
 <b> Problem 3: Bookend Swap Problem
