@@ -39,8 +39,13 @@ last = input("enter last name: ")
 username = make_username(first, last)
 print(username)
 ````
+
+The result is then printed to the screen using the print() function.
+
+````
 <b> Problem 3: Bookend Swap Problem
 ````
+
 In Problem 3, you are asked to create a function that swaps the first and last elements of a list. This is called "bookend swapping" because the elements at the ends (bookends) are 
 exchanged while the middle elements remain in their original order. 
 For example, ["book", "item", "pencil"] becomes ["pencil", "item", "book"].
@@ -50,6 +55,7 @@ Code syntaxes are used.
 
 First, the program asks for items using the 'input()' syntax. The input is 
 stored into 'items' before being processed.
+
 ````
 def swap_bookends(items):
     first, *middle, last = items
