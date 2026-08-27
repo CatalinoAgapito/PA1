@@ -60,11 +60,9 @@ stored into 'items' before being processed.
 def swap_bookends(items):
     first, *middle, last = items
     return [last] + middle + [first]
-````
-
 items = input("Enter items: ")
 initems = items.split()
-
 swap = swap_bookends(initems)
+````
 print(swap)
 ```
