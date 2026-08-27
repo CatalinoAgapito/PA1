@@ -12,10 +12,10 @@ In this problem, you are asked to rotate a given word by moving its first letter
 First, the program asks for the text to be rotated using the 'input()' syntax. 
 The input is stored in 'word' before being processed by the rotate_word() function.
 ````
-def rotate_word(text):
+def rotate_word(text): 
 return text[1:] + text[0]
-word = input("Enter text: ")
-print(rotate_word(word))
+word = input("Enter text: ") #asks the user to eanter a word to rotated
+print(rotate_word(word)) #prints the result
 ````
 
 
@@ -34,14 +34,14 @@ for the user's last name using another 'input()' syntax, stored into 'last'.
 
 ````
 def make_username(first_name, last_name):
-    first_name = first_name.lower().replace(" ", "")
-    last_name = last_name.lower().replace(" ", "")
+    first_name = first_name.lower().replace(" ", "") 
+    last_name = last_name.lower().replace(" ", "") 
     return first_name + "." + last_name
 
-first = input("enter first name: ")
-last = input("enter last name: ")
-username = make_username(first, last)
-print(username)
+first = input("enter first name: ") #asks the user for their first name
+last = input("enter last name: ")  #asks the user for their first name
+username = make_username(first, last) #constructs the username
+print(username) #prints the username
 ````
 
 # Problem 3: Bookend Swap Problem
@@ -60,7 +60,7 @@ stored into 'items' before being processed.
 def swap_bookends(items):
     first, *middle, last = items
     return [last] + middle + [first]
-items = input("Enter items: ")
+items = input("Enter items: ") #asks the user to enter items
 initems = items.split()
 swap = swap_bookends(initems)
 print(swap)
