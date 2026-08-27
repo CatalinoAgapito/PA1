@@ -1,7 +1,7 @@
 # PA1
 In this Program Assignment, three different problems were asked. Each problem has its own function for performing a specific task.
 
-<b> Problem 1: Word Rotation Problem
+# Problem 1: Word Rotation Problem
 
 In this problem, you are asked to rotate a given word by moving its first letter to the end. For example, the word "python" should become "npytho". In order to create a function that rotates a word by moving its first character to the end, the following code syntax is used.
 
